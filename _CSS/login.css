@@ -1,0 +1,95 @@
+*{
+    color: white;
+}
+
+
+body{
+    background-image: url(../_IMAGES/lol-minions-uhdpaper.com-4K-5.1-wp.thumbnail.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#principal {
+    margin-top: 110px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+input {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid darkred;
+    border-radius: 10px;
+}
+
+.a {
+    margin: 20px;
+}
+
+.b {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 45%;
+}
+
+.c {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 45%;
+}
+
+.d {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#position {
+    display: flex;
+}
+
+.btt {
+    font-family: cursive;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    background: radial-gradient(black,darkred);
+}
+
+.btt:hover{
+     background: radial-gradient(black,darkgoldenrod);
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

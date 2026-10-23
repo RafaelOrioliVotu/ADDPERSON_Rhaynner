@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR CONTA</title>
+    <link rel="stylesheet" href="../_CSS/login.css">
+</head>
+
+<body>
+    <div id="principal">
+        <h1>CHAOS|GEM</h1>
+        <form method="post" action="../_PHP/login.php">
+            <fieldset class="a">
+                <p>Nome:</p>
+                <input type="text" name="nome" placeholder="Insira seu nome">
+                <p>Sobrenome:</p>
+                <input type="text" name="sobrenome" placeholder="Insira seu sobrenome">
+                <p>Nome de Usuário(aparecerá no jogo):</p>
+                <input type="text" name="usuario" placeholder="Insira seu usuário">
+            </fieldset>
+            <div id="position">
+                <fieldset class="b">
+                    <p>Senha:</p>
+                    <input type="password" name="senha" placeholder="Insira sua senha">
+                    <p>Confirme sua senha:</p>
+                    <input type="password" name="csenha" placeholder="Confirme sua senha">
+                </fieldset>
+                <fieldset class="c">
+                    <p>Email:</p>
+                    <input type="email" name="email" placeholder="Insira seu email">
+                    <p>Confirme seu email:</p>
+                    <input type="email" name="cemail" placeholder="Confirme seu email">
+                </fieldset>
+            </div>
+            <fieldset class="d">
+                <input class="btt" type="submit" value="LOGAR">
+                <input class="btt" type="submit" value="RESETAR">
+            </fieldset>
+
+        </form>
+    </div>
+</body>
+
+</html>
