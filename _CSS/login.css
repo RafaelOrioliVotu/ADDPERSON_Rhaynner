@@ -1,3 +1,6 @@
+input{
+    color: black;
+}
 *{
     color: white;
 }
@@ -17,6 +20,7 @@ body{
     border-radius: 10px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.8),rgba(0,0,0,0.8), rgba(0,0,0,0));
 }
 
 h1 {
