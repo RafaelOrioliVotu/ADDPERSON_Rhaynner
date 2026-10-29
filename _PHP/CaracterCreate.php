@@ -23,5 +23,6 @@ $linha = date('d/m/Y H:i:s') . " | " . $nome . " | " . $race . " | " . $tamanho 
 
 file_put_contents('../_TXT/CaracterCreate.txt',$linha, FILE_APPEND);
 
-header('location: ../_HTML/CaracterCreate.html')
+header('location: ../_HTML/CaracterCreate.html');
+exit();
 ?>
