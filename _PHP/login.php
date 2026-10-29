@@ -8,7 +8,7 @@ $email = $_POST['email'];
 $cemail = $_POST['cemail'];
 
 if ($csenha = $senha and $cemail = $email) {
-    header('Location: SelectPerson.html')
+    header('Location: CaracterCreate.html')
 }elseif ($csenha != $senha and $cemail = $email){
     echo "Senhas não corrempondem uma com a outra!!!";
 }elseif ($cemail != $email and $csenha = $senha){

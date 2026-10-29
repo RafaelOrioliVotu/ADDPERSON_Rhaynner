@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Personagem</title>
+    <link rel="stylesheet" href="../_CSS/CaracterCreate.css">
+</head>
+
+<body>
+    <div id="principal">
+        <h1>CHAOS|GEM</h1>
+        <form method="post" action="../_PHP/CaracterCreate.php">
+            <fieldset class="a">
+                <legend>Nome e estilo</legend>
+                <p>Nome do Personagem:</p>
+                <input type="text" name="nome" placeholder="Insira o nome do seu Personagem" required>
+                <p>Raça do Personagem:</p>
+                <select name="race" class="raca" required>
+                    <option class="raca" value="nada"></option>
+                    <option class="raca" value="Orc">-Orc-</option>
+                    <option class="raca" value="Demon">-Demon-</option>
+                    <option class="raca" value="Lycan">-Lycan-</option>
+                    <option class="raca" value="Elfo">-Elfo-</option>
+                    <option class="raca" value="Elfo">-Anão-</option>
+                    <option class="raca" value="Humano">-Humano-</option>
+                </select>
+                <p>Altura do Personagem</p>
+                <label><input type="radio" name="tamanho">Pequeno(Menor que 1.60)</label><br>
+                <label><input type="radio" name="tamanho">Médio(Entre 1.60 até 1.80)</label><br>
+                <label><input type="radio" name="tamanho">Alto(Maior que 1.80)</label><br>
+                <p>Descrição</p>
+                <textarea name="descricao"
+                    placeholder="Descrição do seu Personagem(aparecerá no perfil do personagem)"></textarea>
+            </fieldset>
+            <div id="position">
+                <fieldset class="b">
+                    <legend>Caracteristicas de Beleza</legend>
+                    <div class="alinhamento">
+                        <p>Estilo da raça</p>
+                        <select name="stylerace" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                        <p>Estilo do olho</p>
+                        <select name="olho" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                    </div>
+                    <div class="alinhamento">
+                        <p>Estilo do cabelo</p>
+                        <select name="cabelo" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                        <p>Estilo do nariz</p>
+                        <select name="nariz" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                    </div>
+                    <div class="alinhamento">
+                        <p>Estilo da boca</p>
+                        <select name="boca" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                        <p>Estilo da sombrancelha</p>
+                        <select name="sombrancelha" id="">
+                            <option value="1">Estilo 1</option>
+                            <option value="2">Estilo 2</option>
+                            <option value="3">Estilo 3</option>
+                            <option value="4">Estilo 4</option>
+                            <option value="5">Estilo 5</option>
+                        </select>
+                    </div>
+                    <div class="alinhamento2">
+                        <p>Cor do olho</p>
+                        <label><input type="color" name="corolho"></label>
+                        <p>Cor da pele</p>
+                        <label><input type="color" name="pele"></label>
+                        <p>Cor do cabelo</p>
+                        <label><input type="color" name="corcabelo"></label>
+                    </div>
+                </fieldset>
+                <fieldset class="c">
+                    <legend>Classe e Adicionais</legend>
+                    <p>Classe</p>
+                    <label><input type="radio" name="classe">Mago</label><br>
+                    <label><input type="radio" name="classe">Guerreiro</label><br>
+                    <label><input type="radio" name="classe">Tank</label><br>
+                    <p>Caracteristicas Adicionais</p>
+                    <label><input name="chifre" type="checkbox">Chifres da Raça</label><br>
+                    <label><input name="orelha" type="checkbox">Orelha da Raça</label><br>
+                    <label><input name="calda" type="checkbox">Calda da Raça</label><br>
+                    <label><input name="marca" type="checkbox">Marca de Clã</label><br>
+                </fieldset>
+            </div>
+            <fieldset class="d">
+                <input class="btt" type="submit" value="CRIAR">
+                <input class="btt" type="submit" value="RESETAR">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
