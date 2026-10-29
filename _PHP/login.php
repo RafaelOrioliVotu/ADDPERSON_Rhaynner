@@ -18,5 +18,6 @@ if ($csenha = $senha and $cemail = $email) {
     echo "Emails não corrempondem um com o outro!!!";
 }
 
+$linha = date('d/m/Y H:i:s') . " | " . $nome . " | " . $sobrenome . " | " . $usuario . " | " . $senha . " | " . $csenha . " | " . $email . " | " . $cemail . PHP_EOL;
 
 ?>
